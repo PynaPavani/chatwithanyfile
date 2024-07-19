@@ -1,0 +1,19 @@
+query,response,chartname,file_type
+what is attention?," Attention, in the context provided, is a function that maps a query and a set of key-value pairs to an output. This mapping is performed by computing a weighted sum of the values, where the weights are determined by the compatibility between the query and the corresponding keys using dot products or feed-forward networks (in case of additive attention). Attention mechanisms allow a model to focus on specific parts of the input when producing an output, which is particularly useful for tasks involving sequences such as reading comprehension, abstractive summarization, textual entailment, etc. The Transformer, for instance, uses multi-head self-attention to compute representations of its input and output without relying on sequence-aligned RNNs or convolution.",,.txt
+what is encoder and decoder?," The encoder and decoder are the main components of the Transformer model architecture described in the context. The encoder is a stack of six identical layers composed of two sub-layers, each having a multi-head self-attention mechanism and a simple position-wise feed-forward network, with residual connections and layer normalization between them. The decoder also consists of a similar stack of six layers but includes an additional third sub-layer that performs multi-head attention over the output of the encoder stack. The positioning of these components allows the model to process input sequences (encoder) and generate output sequences (decoder), respectively.",,.txt
+what is the correlation beteenn age and bmi?, the max area price is 500000,,.csv
+Any relation for bmi and age? ,There is no direct relation between BMI and Age in this dataset since the required weight and height are not provided.,,.csv
+tell me the clear  relation  bmi and age of a person ?,"I cannot relate the BMI and age from this particular dataset since it doesn't contain relevant columns for BMI and Age. To answer your question, I would need a different dataset with those specific columns.",,.csv
+what is langchain?,"Based on the provided context, it appears that ""langchain"" refers to a project or framework in natural language processing (NLP). The presence of related modules and libraries such as ""langchain_community"", ""langchain_core"", ""langchain-google-genai"", and others suggests that langchain is a comprehensive tool for building language models and integrating them with other NLP tools.",,.txt
+what is langchain_community,"Based on the provided context, I believe that ""langchain_community"" refers to a community or group related to LangChain, which appears to be an AI-powered language model.",,.txt
+what are the names of columns? ,"The names of the columns are ['Id', 'SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm', 'Species'].",,.xlsx
+what are the names of columns ?,"The names of the columns are:
+1. Invoice
+2. StockCode
+3. Description
+4. Quantity
+5. InvoiceDate
+6. Price
+7. Customer ID
+8. Country",,.xlsx
+what is max area price,The maximum area price is 725000 for an area of 4000 square units.,,.csv

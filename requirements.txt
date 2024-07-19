@@ -1,0 +1,16 @@
+langchain
+langchain_community
+langchain_core
+streamlit
+python-dotenv
+langchain-google-genai
+langchain 
+faiss-cpu 
+unstructured
+tiktoken
+pytesseract 
+pypdf
+"unstructured[pdf]"
+PyPDF2
+easyocr
+openpyxl
